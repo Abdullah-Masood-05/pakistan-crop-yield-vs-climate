@@ -1,6 +1,10 @@
-dash
-pandas
-plotly
-statsmodels
-dash-bootstrap-components
-gunicorn
+# Dashboard
+dash>=4.0
+plotly>=5.19
+pandas>=2.0
+
+# OLS trendline in the temperature-vs-yield scatter
+statsmodels>=0.14
+
+# Production server (Render)
+gunicorn>=21.0

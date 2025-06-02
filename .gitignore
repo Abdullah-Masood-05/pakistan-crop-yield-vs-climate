@@ -1,3 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data / local exports
 *.xlsx
+
+# OS
 desktop.ini
-/__pycache__
+.DS_Store
+Thumbs.db
