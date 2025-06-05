@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" role="img" aria-label="Pakistan Crop Yield vs Climate">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#149a4c"/>
+      <stop offset="1" stop-color="#0a6b33"/>
+    </linearGradient>
+  </defs>
+  <rect width="44" height="44" rx="11" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round">
+    <path d="M22 34V16"/>
+    <path d="M22 21c-4.5-1-7-3.8-7.5-8 4.5 1 7 3.8 7.5 8z" fill="#ffffff" stroke="none" opacity="0.92"/>
+    <path d="M22 27c4.5-1 7-3.8 7.5-8-4.5 1-7 3.8-7.5 8z" fill="#ffffff" stroke="none" opacity="0.72"/>
+  </g>
+</svg>
