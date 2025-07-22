@@ -1,75 +1,157 @@
-/* assets/styles.css */
-
-/* General layout */
+/* Reset margins and set base style */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 20px;
+    padding: 15px;
     background-color: #f9f9f9;
 }
 
 /* Header */
-h1 {
-    text-align: center;
-    margin-bottom: 10px;
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
 }
 
-/* Subtitle paragraph */
-p {
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 30px;
+.menu-icon {
+    visibility: hidden;
+    font-size: 22px;
+    cursor: pointer;
 }
 
-/* Filters container */
+.logo {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    margin: 0 auto; 
+    width: fit-content;
+}
+
+/* Filters */
 .filters {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     gap: 10px;
 }
-
 .filters > div {
     width: 30%;
 }
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
 
-/* Responsive filters */
+/* Responsive Filters (mobile toggle) */
 @media only screen and (max-width: 768px) {
     .filters {
+        display: none;
+    }
+    .filters.show {
+        display: flex !important;
         flex-direction: column;
     }
     .filters > div {
         width: 100% !important;
-        margin-bottom: 15px;
+        margin-bottom: 12px;
+    }
+    label {
+        font-size: 13px !important;
     }
 }
 
-/* Row containers for graphs */
+/* Graph containers */
 .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 16px;
     margin-top: 20px;
 }
-
 .row > div {
-    flex: 1 1 45%;
-    padding: 10px;
-    box-sizing: border-box;
+    flex: 1 1 47%;
     background: white;
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    min-width: 300px;
+    box-sizing: border-box;
 }
 
-/* Responsive rows */
+/* Plot title wrapping */
+.graph-container .js-plotly-plot .gtitle {
+    white-space: normal !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Axes text */
+.axis-text-small {
+    font-size: 10px !important;
+}
+.xtick text, .ytick text {
+    font-size: 10px !important;
+}
+
+/* Yield bar title truncation fix */
 @media only screen and (max-width: 768px) {
+    .graph-container .js-plotly-plot .gtitle {
+        font-size: 13px !important;
+    }
+    .menu-icon {
+        visibility: visible;
+        font-size: 22px;
+        cursor: pointer;
+    }
     .row {
         flex-direction: column;
     }
     .row > div {
         flex: 1 1 100%;
+        width: 100% !important;
     }
+
+    .logo {
+        font-size: 18px;
+        text-align: center
+    }
+
+    .menu-icon {
+        font-size: 20px;
+    }
+
+    .dropdown-label {
+        font-size: 12px;
+    }
+}
+
+/* KPI cards (optional if added later) */
+.kpi-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+.kpi-box {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1 1 22%;
+    padding: 15px;
+    min-width: 150px;
+}
+.kpi-label {
+    font-size: 14px;
+    color: #888;
+}
+.kpi-value {
+    font-size: 20px;
+    margin-top: 5px;
 }
 
 /* Footer */
@@ -79,21 +161,4 @@ footer {
     margin-top: 40px;
     font-size: 12px;
     color: #666;
-}
-
-/* Fix graph titles to wrap */
-.graph-container .js-plotly-plot .gtitle {
-    white-space: normal !important;
-}
-
-/* Small tweaks for plot axes text */
-.axis-text-small {
-    font-size: 10px !important;
-}
-
-/* Make dropdown labels smaller on mobile */
-@media only screen and (max-width: 768px) {
-    label {
-        font-size: 14px !important;
-    }
 }
