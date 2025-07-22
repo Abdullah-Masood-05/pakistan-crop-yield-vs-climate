@@ -15,6 +15,7 @@ years = sorted(int(y) for y in merged_df['Year'].unique())
 
 # Initialize app
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
+server = app.server  
 app.title = "Pakistan Agri-Climate Dashboard"
 
 # Layout
