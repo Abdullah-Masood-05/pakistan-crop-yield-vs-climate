@@ -117,9 +117,7 @@ pakistan-crop-yield-vs-climate/
    ```bash
    python climate_dashboard.py
    ```
-
-Then open your browser at: [localhost](http://127.0.0.1:8050)
-
+   
 ---
 
 ## 🌍 Features
