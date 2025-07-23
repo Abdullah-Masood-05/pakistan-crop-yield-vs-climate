@@ -152,6 +152,7 @@ All contributions are welcome 💚
 ## 📬 Author
 
 > **Abdullah Masood**
+
 > [LinkedIn](#https://www.linkedin.com/in/abdullah-masood-921458221/) | [GitHub](#https://github.com/Abdullah-Masood-05)
 
 ---
