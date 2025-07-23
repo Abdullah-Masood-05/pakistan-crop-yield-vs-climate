@@ -151,9 +151,14 @@ All contributions are welcome 💚
 
 ## 📬 Author
 
-> **Abdullah Masood**
+**Abdullah Masood**
 
-> [LinkedIn](#https://www.linkedin.com/in/abdullah-masood-921458221/) | [GitHub](#https://github.com/Abdullah-Masood-05)
+<a href="https://www.linkedin.com/in/abdullah-masood-921458221/" target="_blank">
+  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://github.com/Abdullah-Masood-05" target="_blank">
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 ---
 
