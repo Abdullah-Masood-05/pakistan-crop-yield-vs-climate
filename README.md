@@ -101,16 +101,22 @@ pakistan-crop-yield-vs-climate/
 
 ## 🚀 Running the Dashboard Locally
 
-```bash
-git clone https://github.com/Abdullah-Masood-05/pakistan-crop-yield-vs-climate.git
-cd pakistan-crop-yield-vs-climate
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Abdullah-Masood-05/pakistan-crop-yield-vs-climate.git
+   cd pakistan-crop-yield-vs-climate
+   ```
+2. Install dependencies
 
-# Install dependencies
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the notebooks in the order provided to follow the full pipeline.
 
-# Run the dashboard
-python climate_dashboard.py
-```
+4. Start the Dash application
+   ```bash
+   python climate_dashboard.py
+   ```
 
 Then open your browser at: [localhost](http://127.0.0.1:8050)
 
