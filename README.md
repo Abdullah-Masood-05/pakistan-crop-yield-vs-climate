@@ -6,6 +6,9 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Dash](https://img.shields.io/badge/built%20with-Dash%20%2B%20Plotly-119dff?logo=plotly&logoColor=white)](https://dash.plotly.com/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-black)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Abdullah-Masood-05/pakistan-crop-yield-vs-climate?style=social&logo=github)](https://github.com/Abdullah-Masood-05/pakistan-crop-yield-vs-climate/stargazers)
+
+> ⭐ **Enjoying pakistan-crop-yield-vs-climate?** If it's useful to you, please [star it on GitHub](https://github.com/Abdullah-Masood-05/pakistan-crop-yield-vs-climate). It's free and it helps other developers find it.
 
 ![Dashboard — desktop](assets/dashboard-desktop.png)
 
